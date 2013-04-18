@@ -14,4 +14,4 @@ alias gpure='git pull --rebase'
 alias gst='git status -sb'
 
 # before a push do an interactive rebase on your unpushed commits for review, rewording messages, and chaining related commits together
-gready='git rebase -i @{u}'
+alias gcheck='git rebase -i @{u}'
